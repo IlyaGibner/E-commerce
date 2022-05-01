@@ -194,13 +194,17 @@ filter: drop-shadow(2px 2px 2px #000);
  -webkit-filter: drop-shadow(2px 2px 2px #000);
 }
 .About {
-  margin-top: 200px;
   margin-left: 130px;
   line-height: 40px;
   font-weight: 500;
   font-size: 35px;
   display: flex;
 }
+
+.head_section {
+
+}
+
 .Group_1 {
   position: absolute;
 width: 380px;
@@ -272,13 +276,8 @@ margin-top: 50px;
 }
 
 .right_corner {
-  position: absolute;
-
-height: 198.15px;
-left: 1130px;
-top: 768px;
-
-opacity: 0.8;
+  display: flex;
+  margin-left: auto;
 }
 
 .Learn_1 {
