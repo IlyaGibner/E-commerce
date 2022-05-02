@@ -122,10 +122,11 @@ ul.nav_menu {
 
 
 .img_mobile {
+  display: flex;
   position: relative;
   width: 500px;
   height: 60vh;
-  left: 750px;
+  left: 770px;
   top: 70px;
 
 
@@ -149,24 +150,35 @@ h1 {
   margin-bottom: 30px;
   line-height: 70px;
 }
+
+
 p {
   font-size: 20px;
   line-height: 40px;
   font-weight: normal;
 }
+
+
 li {
   font-weight: 100;
   font-size: 16px
 }
+
+
 .mobile_1 {
   position: absolute;
   margin-right: 60px;
-  margin-top: 75px;
+  margin-top: 90px;
 }
-.mobile_2 {
-  margin-left: 180px;
 
+
+.mobile_2 {
+  margin-left: 150px;
+  display: flex;
+  height: 550px;
 }
+
+
 img.img_button {
   position: absolute;
   top: 22%;
@@ -196,53 +208,75 @@ transform: rotateY(360deg);
 filter: drop-shadow(2px 2px 2px #000);
  -webkit-filter: drop-shadow(2px 2px 2px #000);
 }
+
+.bottom_1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
 .About {
   margin-left: 130px;
   line-height: 40px;
   font-weight: 500;
   font-size: 35px;
-  display: block;
+
 }
 
 .head_section {
-
+display: flex;
 }
 .section_section {
-  margin: 0 auto;
-  width: 1280px;
+  position: absolute;
 }
 
 .Group_1 {
-  display: block;
+
+margin-left: auto;
+margin-right: 250px;
 width: 380px;
-height: 537px;
-margin-left: 700px;
-margin-top: 5px;
+height: auto;
+margin-top: 3px;
 box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
 border-radius: 10px;
 
 }
 .Group_1_3 {
-
+  margin: 0 auto;
+  display: flex;
 }
+
+
 .Group_2 {
   display: block;
 width: 380px;
-height: 525px;
+height: auto;
 left: 230px;
 margin-top: 5px;
 box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
 border-radius: 10px;
 }
+.Group_2_1 {
+  margin: 0 auto;
+  display: flex;
+}
+
+
 .Group_3 {
   display: block;
 width: 380px;
-height: 525px;
+height: auto;
 left: 750px;
 top: 1591px;
 box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
 border-radius: 10px;
 }
+.Group_3_2 {
+  margin: 0 auto;
+  display: flex;
+}
+
+
+
 .Send {
   font-family: 'roboto';
 font-style: normal;
@@ -288,12 +322,16 @@ margin-top: 50px;
   margin-left: auto;
 }
 
-.Learn_1 {
-  position: sticky;
-width: 127px;
-height: 30px;
-left: 800px;
-top: 300px;
+
+.left_corner {
+  display: flex;
+  margin-right: auto;
+}
+
+.Learn {
+  margin-left: 48px;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 @media screen and (max-width 425px) {
 .logo {
